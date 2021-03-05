@@ -1,0 +1,48 @@
+let count=10;
+setTimeout(()=>{
+    document.getElementById('timer').innerHTML=count;
+    count--;
+    setTimeout(()=>{
+        document.getElementById('timer').innerHTML=count;
+        count--;
+        setTimeout(()=>{
+            document.getElementById('timer').innerHTML=count;
+            count--;
+            setTimeout(()=>{
+                document.getElementById('timer').innerHTML=count;
+                count--;
+                setTimeout(()=>{
+                    document.getElementById('timer').innerHTML=count;
+                    count--;
+                    setTimeout(()=>{
+                        document.getElementById('timer').innerHTML=count;
+                        count--;
+                        setTimeout(()=>{
+                            document.getElementById('timer').innerHTML=count;
+                            count--;
+                            setTimeout(()=>{
+                                document.getElementById('timer').innerHTML=count;
+                                count--;
+                                setTimeout(()=>{
+                                    document.getElementById('timer').innerHTML=count;
+                                    count--;
+                                    setTimeout(()=>{
+                                        document.getElementById('timer').innerHTML=count;
+                                        count--;
+                                        setTimeout(()=>{
+                                            document.getElementById('timer').innerHTML=count;
+                                            count--;
+                                            document.getElementById('timer').innerText="HappyBirthday"
+                                        },1000);
+                                    },1000);
+                                },1000);
+                            },1000);
+                        },1000);
+                    },1000);
+                },1000);
+            },1000);
+        },1000);
+    },1000);
+},1000)
+
+    
